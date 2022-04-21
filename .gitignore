@@ -1,0 +1,4 @@
+node_modules/
+input_dir/
+output_dir/
+.env
