@@ -1,0 +1,19 @@
+{
+  "name": "task2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "go": "node task2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.11.27",
+    "free-translate": "^0.6.1",
+    "fs": "^0.0.1-security",
+    "os": "^0.1.2",
+    "readline": "^1.3.0"
+  }
+}
