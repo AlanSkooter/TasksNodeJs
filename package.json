@@ -1,0 +1,22 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "http_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanSkooter/TasksNodeJs.git"
+  },
+  "author": "Alina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlanSkooter/TasksNodeJs/issues"
+  },
+  "homepage": "https://github.com/AlanSkooter/TasksNodeJs#readme",
+  "dependencies": {
+    "@types/node": "^17.0.23"
+  }
+}
