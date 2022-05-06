@@ -1,0 +1,30 @@
+{
+  "name": "hard-user-server",
+  "version": "1.0.0",
+  "description": "- Создать новый Ресурс для регистрации пользователя по логину и пароля\r   - Создать новый Ресурс для аутентификации пользователя по логину и паролю, результато которого будет выписанный уникальный токен. Который мы будем хранить либо в cookie, либо в localStorage.\r   - Имплементировать несколько возможных вариантов для защиты роутов, к ним должен иметь доступ только аутентифицированный юзер.\r   - Имплементировать GUARD для допуска к роуту только определенных пользователей. С помощью IF, HOC, MIDDLEWARE.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "find-my-way": "^5.4.0",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.27"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valeronlol/nodejs-js-lesson-37.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Valeronlol/nodejs-js-lesson-37/issues"
+  },
+  "homepage": "https://github.com/Valeronlol/nodejs-js-lesson-37#readme"
+}
